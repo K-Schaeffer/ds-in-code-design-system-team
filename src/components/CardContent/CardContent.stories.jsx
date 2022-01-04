@@ -10,8 +10,8 @@ export default {
 const Template = (args) => {
   return(
     <div style={{
-      width: '315px',
-      height: '320px'
+      width: '314px',
+      height: '417px'
     }}>
       <CardContentComponent {...args} />
     </div>
