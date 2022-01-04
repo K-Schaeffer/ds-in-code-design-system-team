@@ -9,6 +9,9 @@
     margin-bottom: auto;
   }
   dsc-typography[component="heading"]{
+    &::part(typography){
+      font-weight: var(--font-weight-bold);
+    }
     margin-bottom: var(--spacing-size-xxxs);
   }
   dsc-typography[component="paragraph"]{

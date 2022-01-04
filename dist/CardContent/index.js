@@ -16,7 +16,7 @@ require("@meiuca/dsc-design-system/dist/components/typography");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 (function () {
-  var styles = ".card-content::part(card) {\n  padding: var(--spacing-inset-size-md);\n  display: flex;\n  justify-content: flex-end;\n  flex-direction: column;\n}\n.card-content dsc-tag {\n  margin-bottom: auto;\n}\n.card-content dsc-typography[component=heading] {\n  margin-bottom: var(--spacing-size-xxxs);\n}\n.card-content dsc-typography[component=paragraph]::part(typography) {\n  line-height: var(--line-height-lg);\n}";
+  var styles = ".card-content::part(card) {\n  padding: var(--spacing-inset-size-md);\n  display: flex;\n  justify-content: flex-end;\n  flex-direction: column;\n}\n.card-content dsc-tag {\n  margin-bottom: auto;\n}\n.card-content dsc-typography[component=heading] {\n  margin-bottom: var(--spacing-size-xxxs);\n}\n.card-content dsc-typography[component=heading]::part(typography) {\n  font-weight: var(--font-weight-bold);\n}\n.card-content dsc-typography[component=paragraph]::part(typography) {\n  line-height: var(--line-height-lg);\n}";
   var fileName = "index_style";
   var element = document.querySelector("style[data-sass-component='index_style']");
 
