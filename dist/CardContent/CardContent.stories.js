@@ -20,8 +20,8 @@ exports.default = _default;
 var Template = function Template(args) {
   return /*#__PURE__*/_react.default.createElement("div", {
     style: {
-      width: '315px',
-      height: '320px'
+      width: '314px',
+      height: '417px'
     }
   }, /*#__PURE__*/_react.default.createElement(_.CardContent, args));
 };
