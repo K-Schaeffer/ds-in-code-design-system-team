@@ -1,6 +1,6 @@
 {
   "name": "@meiuca/dsc-design-system-team",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "main": "dist/index.js",
   "private": false,
   "repository": {
@@ -12,7 +12,7 @@
     "README.md"
   ],
   "dependencies": {
-    "@meiuca/dsc-design-system": "^0.0.7",
+    "@meiuca/dsc-design-system": "^0.0.8",
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
