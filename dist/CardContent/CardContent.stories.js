@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.default = exports.CardContent = void 0;
+exports.default = exports.CardContentTemplate = void 0;
 
 var _react = _interopRequireDefault(require("react"));
 
@@ -26,9 +26,9 @@ var Template = function Template(args) {
   }, /*#__PURE__*/_react.default.createElement(_.CardContent, args));
 };
 
-var CardContent = Template.bind({});
-exports.CardContent = CardContent;
-CardContent.args = {
+var CardContentTemplate = Template.bind({});
+exports.CardContentTemplate = CardContentTemplate;
+CardContentTemplate.args = {
   tagContent: 'Tag Highlight',
   headingContent: 'Heading',
   paragraphContent: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
