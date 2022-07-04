@@ -1,18 +1,19 @@
 {
-  "name": "@meiuca/dsc-design-system-team",
-  "version": "0.1.5",
+  "name": "ds-in-code-design-system-team",
+  "description": "Design System Team library forked from @Meiuca during the Design System In Code course",
+  "version": "0.0.1",
+  "author": "Kauan Schaeffer - <kcb.schaeffer@gmail.com>",
   "main": "dist/index.js",
-  "private": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/Meiuca/ds-in-code-design-system-team"
+    "url": "https://github.com/K-Schaeffer/ds-in-code-design-system-team"
   },
   "files": [
     "dist",
     "README.md"
   ],
   "dependencies": {
-    "@meiuca/dsc-design-system": "^0.0.8",
+    "ds-in-code-design-system": "^0.0.1",
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
@@ -24,14 +25,14 @@
     "web-vitals": "^2.1.2"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start-react": "react-scripts start",
+    "build-react": "react-scripts build",
+    "build": "npm run clean && cross-env NODE_ENV=production babel src/components --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,stories.js,__snapshots__",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
-    "clean": "rimraf dist",
-    "compile": "npm run clean && cross-env NODE_ENV=production babel src/components --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,stories.js,__snapshots__"
+    "clean": "rimraf dist"
   },
   "eslintConfig": {
     "extends": [

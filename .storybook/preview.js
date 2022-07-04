@@ -12,13 +12,13 @@ export const globalTypes = {
   theme: {
     name: 'Themes',
     description: 'Temas',
-    defaultValue: 'marca-a/tema-1',
+    defaultValue: 'brand-a/theme-1',
     right: true,
     toolbar: {
       icon: 'globe',
       items: [
-          { value: 'marca-a/tema-1', title: 'Marca A', right: 'Tema 1' },
-          { value: 'marca-a/tema-2', title: 'Marca A', right: 'Tema 2' }
+          { value: 'brand-a/theme-1', title: 'Marca A', right: 'Tema 1' },
+          { value: 'brand-a/theme-2', title: 'Marca A', right: 'Tema 2' }
       ],
       showName: true,
     }
