@@ -1,7 +1,7 @@
 {
   "name": "ds-in-code-design-system-team",
   "description": "Design System Team library forked from @Meiuca during the Design System In Code course",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Kauan Schaeffer - <kcb.schaeffer@gmail.com>",
   "main": "dist/index.js",
   "repository": {
